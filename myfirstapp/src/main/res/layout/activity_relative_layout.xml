@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:id="@+id/et1"
+                android:background="#007AB1"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:id="@+id/bt1"
+                android:layout_below="@id/et1"
+                android:backgroundTint="#0094D6"
+                android:text="all contacts"
+                android:textSize="80px"
+                android:textColor="@color/ttttttt"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="170px"
+                android:id="@+id/et2"
+                android:hint="Search all contacts"
+                android:layout_below="@id/bt1"
+                android:drawableLeft="@drawable/downloadsearch"
+                />
+
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:src="@mipmap/cc"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="100px"
+                android:id="@+id/battery"
+                />
+
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/wifi"
+                android:src="@mipmap/wifi"
+                android:layout_toLeftOf="@id/battery"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/anwar"
+                android:layout_below="@id/et2"
+                android:layout_marginTop="150px"
+                android:text="Anvar Rasheed"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/anu"
+                android:layout_below="@id/anwar"
+                android:text="Anu Sithara"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/anila"
+                android:layout_below="@id/anu"
+                android:text="Anila Ganesh"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/ammu"
+                android:layout_below="@id/anila"
+                android:text="Ammu Kiran"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/appu"
+                android:layout_below="@id/ammu"
+                android:text="Appu Varghese"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/yadhu"
+                android:layout_below="@id/appu"
+                android:text="Yadhu Krishnan"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/maria"
+                android:layout_below="@id/yadhu"
+                android:text="Maria Francis"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/vishnu"
+                android:layout_below="@id/maria"
+                android:text="Vishnu Radhkrishnan"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/jayaraj"
+                android:layout_below="@id/vishnu"
+                android:text="Jayaraj Varyar"
+                android:textSize="64px"
+                android:drawableLeft="@drawable/profile"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

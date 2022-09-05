@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="linear"
+        android:textSize="33dp"
+        android:backgroundTint="#FF5722"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:text="relative"
+        android:textSize="33dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="li_layout"
+        android:backgroundTint="#FF5722"
+        android:textSize="33dp"
+        />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="frame_layout"
+        android:textSize="33dp"
+        android:backgroundTint="#2196F3"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="boxes"
+        android:id="@+id/btn5"
+        android:textSize="33dp"
+        android:backgroundTint="#FF5722"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:id="@+id/btn6"
+        android:text="second linear"
+        android:textSize="33dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:id="@+id/btn7"
+        android:text="image"
+        android:textSize="33dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:id="@+id/btn8"
+        android:text="rel_layout"
+        android:textSize="33dp"
+        />
+</LinearLayout>

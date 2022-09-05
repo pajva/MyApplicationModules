@@ -1,0 +1,10 @@
+include ':contentproviderexcercise'
+include ':dbexcercise'
+include ':registrationform'
+include ':submenu'
+include ':menuexcercise'
+include ':dialogexercise'
+include ':intentactivity'
+include ':layoutexercise'
+include ':myfirstapp'
+rootProject.name = "My Application"

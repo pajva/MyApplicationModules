@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/animal" android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/co_send"
+            android:title="send"
+            android:icon="@drawable/ic_baseline_textsms_24"
+            />
+        <item
+            android:id="@+id/co_delete"
+            android:title="delete"
+            />
+        <item
+            android:id="@+id/co_edit"
+            android:title="edit"
+            />
+
+    </group>
+
+</menu>

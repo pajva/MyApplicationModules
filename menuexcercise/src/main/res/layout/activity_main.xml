@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="OPTION MENU"
+        android:background="#176CEC"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <Button
+        android:id="@+id/btn_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#176CEC"
+        android:text="CONTEXT MENU"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <Button
+        android:id="@+id/btn_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#176CEC"
+        android:text="POPUP MENU"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <Button
+        android:id="@+id/bt_optionprepare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#176CEC"
+        android:text="ADD MENU ITEM"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="manageShareOption"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_draw"
+        android:layout_margin="10dp"
+        android:background="#176CEC"
+        android:text="NAVIGATION DRAWER"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+
+</LinearLayout>
